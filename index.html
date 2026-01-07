@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DynamicID - Multi-ID Image Personalization</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        .header { text-align: center; padding: 50px 20px; background: linear-gradient(135deg, #2563eb, #7c3aed); color: white; border-radius: 15px; margin-bottom: 30px; }
+        .btn { display: inline-block; background: white; color: #2563eb; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 15px; }
+        .section { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { color: #2563eb; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin: 20px 0; display: block; margin-left: auto; margin-right: auto; }
+        .gallery { display: flex; flex-direction: column; gap: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>🧬 DynamicID</h1>
+        <p>Zero-Shot Multi-ID Image Personalization with Flexible Facial Editability</p>
+        <p><strong>[ICCV 2025]</strong></p>
+        <a href="https://github.com/traananhdat/DynamicID" class="btn">View on GitHub</a>
+    </div>
+
+    <div class="section">
+        <h2>🔍 Abstract</h2>
+        <p>DynamicID là một framework không cần tuning (tuning-free), hỗ trợ cá nhân hóa hình ảnh đơn và đa nhân vật với độ trung thực cao và khả năng chỉnh sửa khuôn mặt linh hoạt thông qua text prompt.</p>
+    </div>
+
+    <div class="section">
+        <h2>🌈 Gallery</h2>
+        <div class="gallery">
+            <p>Kết quả thử nghiệm của mô hình:</p>
+            <img src="assets/teaser.jpg" alt="DynamicID Teaser">
+            <img src="assets/single.jpg" alt="Single ID Results">
+            <img src="assets/multi.jpg" alt="Multi ID Results">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💡 Method</h2>
+        <img src="assets/pipeline.jpg" alt="DynamicID Pipeline">
+        <p>Framework được xây dựng dựa trên hai thành phần cốt lõi: <strong>SAA</strong> (Semantic-Activated Attention) và <strong>IMR</strong> (Identity-Meaningful Reconfiguration).</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Môi trường ảo
+venv/
+.venv/
+__pycache__/
+
+# Dữ liệu nặng và Model weights (Tránh lỗi dung lượng GitHub)
+models/
+checkpoints/
+dataset/
+*.bin
+*.pth
+*.pt
+*.zip
+
+# File cache của hệ thống
+.vscode/
+.DS_Store
